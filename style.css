@@ -1,0 +1,98 @@
+.container.container-site {
+	margin: 0 auto;
+	max-width: 1280px;
+	width: 75%;
+}
+body{
+	background: rgb(12,18,24);
+}
+html,body, .navbar, .main-page, .main-page > .row{
+	height: 100vh;
+}
+.main-page .row{
+	margin-bottom: 0;
+}
+.navbar{
+	background: rgb(42, 50, 57);
+	text-align: center;
+}
+.navbar .title{
+	display: block;
+	font-size: 48px;
+	font-weight: lighter;
+	color:white;
+	font-family: "Nunito";
+	text-transform: uppercase;
+	margin:70px auto;
+}
+.navbar .nav li{
+	display: block;
+}
+.navbar .nav li a{
+	font-family: "Nunito";
+	color: white;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: lighter;
+}
+.navbar .nav li a:hover{
+	font-weight: bold;
+}
+.page-content{
+	padding:0px !important;
+}
+.tweetbar{
+	background: white;
+	color:rgb(42,45,48);
+	text-align: center;
+	padding:30px 0px;
+}
+.carousel-slider {
+	height: 400px !important;
+}
+.section{
+	background: white;
+}
+.text-center{
+	text-align: center;
+}
+.theme-blue{
+	background: rgb(39, 163, 246);
+}
+.section.services{
+	height: 400px !important;
+	padding:10px 10px;
+}
+.section.services img{
+	border-radius: 10px;
+	height: 150px;
+	margin-top:43px;
+}
+.section.services h4{
+	font-weight: bold;
+}
+.section.services p{
+	font-size: 13px;
+}
+.section.wrapper{
+	padding:50px 20px;
+	padding-bottom: 0px;
+}
+.section .heading{
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+.section .heading:after{
+	display: block;
+	content:" ";
+	margin-top: 10px;
+	width: 70px;
+	height: 4px;
+	background: rgb(6, 173, 158);
+}
+.section.wrapper .divider{
+	width: 100%;
+	height:3px;
+	margin: 50px auto;
+	background: rgb(231, 231, 231);
+}
